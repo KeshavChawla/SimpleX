@@ -1,0 +1,17 @@
+{
+  "name": "Simplex",
+  "version": "1.0",
+  "description": "A light and minimalist welcome tab.",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "tab-icon.png"
+  },
+  "permissions": [ "activeTab"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_scripts": [{
+    "matches": ["http://*/*"],
+    "js": ["date.js", "compliments.js"]
+  }]
+}

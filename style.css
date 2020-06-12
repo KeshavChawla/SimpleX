@@ -1,0 +1,20 @@
+body {
+  background-color: #FFF2F2;
+}
+
+.web-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: black;
+  font-size: 11px;
+  padding-right: 10px;
+}
